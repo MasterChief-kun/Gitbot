@@ -122,7 +122,7 @@ async def listen(listen_json):
         print(channel)
 
 def discord_run():
-    client.run('ODM4NzIyNzc4NzQ3MjQwNDc5.YI_PdQ.eWfdcNKQwlCnwsGnXtJH_hH6oGc')
+    client.run('DISCORD_TOKEN')
 def listener_run():
     app.run(port=7500)
 t1 = threading.Thread(target=discord_run)
